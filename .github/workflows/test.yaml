@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - services/**
-      - github/workflows/test.yaml
+      - .github/workflows/test.yaml
   pull_request:
   workflow_dispatch:
 
@@ -26,6 +26,7 @@ jobs:
           filters: .github/utils/file-filters.yaml
   test:
     needs: filter
+    if: ${{ needs.filter.outputs.services != '[]' }}
     runs-on: ubuntu-24.04
     strategy:
       fail-fast: false
