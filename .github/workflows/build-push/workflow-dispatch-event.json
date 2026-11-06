@@ -1,6 +1,10 @@
 {
+  "ref": "refs/heads/test-matrix",
   "inputs": {
     "service": "services/go/api-golang",
     "version": "foobarbaz"
+  },
+  "repository": {
+    "default_branch": "main"
   }
 }

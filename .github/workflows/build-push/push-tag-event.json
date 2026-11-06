@@ -1,4 +1,10 @@
 {
-  "ref": "refs/tags/services/go/api-golang@1.0.1",
-  "ref_type": "tag"
+  "ref": "refs/tags/services/go/api-golang@1.3.1",
+  "ref_type": "tag",
+  "before": "0000000000000000000000000000000000000000",
+  "after": "26dda0c5b824ee7ab3bcd88f16b65e611d720f5a",
+  "repository": {
+    "default_branch": "main"
+  }
+
 }
